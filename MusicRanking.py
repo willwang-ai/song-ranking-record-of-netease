@@ -40,7 +40,7 @@ class MusicRanking:
 
         plt.title(f'小阿雀_ 的听歌周排行 {self.time_now}')
 
-        plt.savefig(f'{self.time_now}.jpg', dpi=1000, bbox_inches='tight')
+        plt.savefig(f'{self.time_now}.jpg', dpi=600, bbox_inches='tight')
 
 
 if __name__ == '__main__':
